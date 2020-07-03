@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.m-breadcrumb {
+  padding: 10px;
+
+  .m-breadcrumb-item {
+    display: inline-block;
+
+    .m-breadcrumb-link {
+      text-decoration: none;
+    }
+
+    .m-breadcrumb-link:hover {
+      color: #000000;
+    }
+
+    .m-breadcrumb-link.active {
+      color: #000000;
+    }
+  }
+
+  .m-breadcrumb-item:not(:first-of-type)::before{
+    content: '/';
+    margin: 0 5px;
+  }
+}

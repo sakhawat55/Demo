@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.m-breadcrumb {
+  padding: 10px;
+}
+
+.m-breadcrumb .m-breadcrumb-item {
+  display: inline-block;
+}
+
+.m-breadcrumb .m-breadcrumb-item .m-breadcrumb-link {
+  text-decoration: none;
+}
+
+.m-breadcrumb .m-breadcrumb-item .m-breadcrumb-link:hover {
+  color: #000000;
+}
+
+.m-breadcrumb .m-breadcrumb-item .m-breadcrumb-link.active {
+  color: #000000;
+}
+
+.m-breadcrumb .m-breadcrumb-item:not(:first-of-type)::before {
+  content: '/';
+  margin: 0 5px;
+}
+/*# sourceMappingURL=style.css.map */
